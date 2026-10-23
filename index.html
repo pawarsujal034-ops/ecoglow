@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EcoGlow | Botanical Skincare & Beauty</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page="home">
+<div id="site-header"></div>
+
+<main>
+<div class="hero"><div class="container hero-grid">
+  <div>
+    <span class="eyebrow">Skincare, minus the guesswork</span>
+    <h1>Botanical care for <em>real</em> skin, every single day.</h1>
+    <p class="lead">Plant-powered serums, kits and rituals: dermatologist reviewed, never tested on animals, formulated to actually work.</p>
+    <div class="hero-cta"><a class="btn btn-gold" href="#shop">Shop Bestsellers</a><a class="btn btn-outline" href="about.html">Our Story</a></div>
+    <div class="stats"><div><b>50k+</b><span>Happy customers</span></div><div><b>4.6★</b><span>Average rating</span></div><div><b>100%</b><span>Cruelty-free</span></div></div>
+  </div>
+  <div class="hero-art"><div class="art-circle" data-art="hero"></div>
+    <div class="float-tag t1"><span class="dot"></span>1,200+ 5★ reviews</div><div class="float-tag t2">🌿 Vegan formulas</div></div>
+</div></div>
+
+<section style="padding-bottom:20px"><div class="container features">
+  <div class="feature"><div class="ico">🌱</div><h4>Plant powered</h4><p>Botanical actives chosen for how skin really behaves.</p></div>
+  <div class="feature"><div class="ico">🧪</div><h4>Dermatologist reviewed</h4><p>Every formula is checked before it reaches you.</p></div>
+  <div class="feature"><div class="ico">🚚</div><h4>Free shipping</h4><p>On all orders above ₹999, delivered across India.</p></div>
+  <div class="feature"><div class="ico">✨</div><h4>Smart suggestions</h4><p>Find products similar to the ones you already love.</p></div>
+</div></section>
+
+<section id="shop"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">The Shop</span><h2>Find your glow</h2><p id="resultCount" style="color:var(--muted)"></p></div>
+    <div class="toolbar"><select id="sortSel" aria-label="Sort products"><option value="featured">Most popular</option><option value="rating">Top rated</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option></select></div></div>
+  <div class="chips" id="chips" style="margin-bottom:26px"></div>
+  <div class="grid" id="grid"></div>
+  <div class="more"><button class="btn btn-outline" id="moreBtn">Load more</button></div>
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
